@@ -1,5 +1,6 @@
 """Import the Account class from the Account.py file."""
 # ADD YOUR CODE HERE
+Import Account
 
 # Define a function for the Savings Account
 def create_savings_account(balance, interest_rate, months):
@@ -19,16 +20,18 @@ def create_savings_account(balance, interest_rate, months):
     # ADD YOUR CODE HERE
 
     # Calculate interest earned
-     # ADD YOUR CODE HERE
+    interest = balance * (apr/100 * months/12)
+    #be sure to set interest earned to 0
 
     # Update the savings account balance by adding the interest earned
     # ADD YOUR CODE HERE
+    # new_balance= balance + interest_earned            
 
     # Pass the updated_balance to the set balance method using the instance of the SavingsAccount class.
-    # ADD YOUR CODE HERE
+    self.balance = balance
 
     # Pass the interest_earned to the set interest method using the instance of the SavingsAccount class.
-    # ADD YOUR CODE HERE
+    self.interest = interest
 
     # Return the updated balance and interest earned.
     return  # ADD YOUR CODE HERE
