@@ -2,7 +2,7 @@
 customer_banking
 Module 3
 Carolyn Scheese
-due date: July 10, 2024;  12:59am
+due date: June 25, 2024;  12:59am
 Initial submission date: July 20,2024
 
 ## Project Description 
